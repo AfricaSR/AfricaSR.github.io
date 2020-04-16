@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Página de contacto genérica
 
-### More Information
+### Información
 
-A place to include any other types of information that you'd like to include about yourself.
+Aquí se puede colocar información relacionada con el autor si es necesario
 
-### Contact me
+### Contacto
 
-[email@domain.com](mailto:email@domain.com)
+[shilikay1@gmail.com](mailto:shilikay1@gmail.com)
