@@ -41,12 +41,14 @@ h6 {
     font-family: $helveticaNeue;
     color: $darkerGray;
     font-weight: bold;
-    line-height: 1.7;
+    line-height: 1.8;
     margin: 1em 0 15px;
     padding: 0;
     @include mobile {
         line-height: 1.4;
     }
+    text-align: justify;
+
 }
 
 h1 {
