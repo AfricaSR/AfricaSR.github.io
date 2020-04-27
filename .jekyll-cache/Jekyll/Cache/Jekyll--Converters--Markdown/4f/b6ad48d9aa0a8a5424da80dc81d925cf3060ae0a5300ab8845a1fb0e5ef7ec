@@ -1,0 +1,76 @@
+I"� <h3 id="resumen-del-proyecto">Resumen del proyecto</h3>
+
+<p>Mi propuesta consiste en desarrollar una plataforma para montar y administrar eventos sociales, gestionar la lista de asistentes y establecer un canal de comunicación específico entre anfitriones e invitados.</p>
+
+<h3 id="lógica-de-trabajo">Lógica de trabajo</h3>
+
+<p>Este proyecto tiene sentido bajo el contexto de la organización de reuniones formales, como mítines, fiestas, bodas o ceremonias, los cuales precisen de administrar información concreta del evento y sus miembros (nombres de los asistentes, cantidad de invitados, confirmación de asistencia, horarios o reglas a seguir). 
+A fin de trabajar con orden y seguridad en todos los procesos que comporta lo mencionado, es necesario establecer un conjunto de reglas: 
+El plan, por cada evento, consiste en emitir Invitaciones que irán identificadas con un código único para esa invitación y ese evento. Quienes la reciban podrán usar ese código para entrar en la red de dicho evento. Así quedaría un canal abierto para que los Invitados puedan notificar su asistencia en cualquier momento, informar si hay que tener en cuenta algún dato relacionado con su bienestar (alergias alimentarias, diversidad funcional, lesiones u otros detalles vinculados a la salud), si surgen imprevistos en algún momento previo al evento, etc.
+Dentro de la plataforma, un usuario que monta un evento pasará a ser un Anfitrión. Este diseñará el evento y sus detalles relativos: Motivo, lugar, fecha, hora, reglas de asistencia y demás. También se encargará de gestionar las Invitaciones que se enviarán.
+Una Invitación podrá ir dirigida a uno o varios asistentes (Ej. Familias, grupo de amigos, asociaciones…). El Anfitrión tendrá que especificar cuántas invitaciones hará y quiénes podrán gestionar su asistencia mediante una misma Invitación. También será quien elija el canal por el cual enviará la Invitación con el código (Carta impresa, correo electrónico, mensajería instantánea, la propia aplicación, etc.), y a partir de ahí el Invitado podrá registrarse en la plataforma, si no lo ha hecho, y entrar en la red del evento.
+Cuando una Invitación esté dirigida a más de un usuario, cada uno podrá darse de alta en la red del evento con el mismo código de dicha invitación, o podrán encargar a un miembro del grupo para que recopile y envíe la información junta al Anfitrión. El programa irá descartando a los asistentes ya dados de alta.
+Un Invitado registrado podrá administrar la información relativa a la asistencia al evento, ya sea propia o de algún miembro de su mismo grupo de Invitación, en caso de que tenga limitaciones para registrarse, como niños o personas mayores. La información de un Invitado no registrado en la aplicación se borrará cuando el evento sea realizado o cancelado. Así, un Invitado puede ser dado de alta en un evento sin necesidad de tener una cuenta. El usuario que se encargue de enviar su información se hará responsable de los datos y esto será dado a conocer al Anfitrión del evento.
+Una vez que un evento haya sido realizado o cancelado, el Anfitrión no podrá acceder a la información personal de sus invitados.</p>
+
+<h3 id="motivaciones">Motivaciones</h3>
+
+<p>Este proyecto se originó gracias a una petición personal de mi hermano y su novia, quienes tienen previsto casarse este año.<br />
+Esto, aparte de representar para mí un emocionante reto, supone desarrollar un conjunto de herramientas enlazadas para crear una única plataforma. Creo que es perfecto para poner a prueba los conocimientos que he adquirido estos últimos dos años. Me siento muy preparada y motivada para ello, pero también reconozco mis limitaciones.
+Siento que este proyecto, aunque ahora mismo quedará acotado sólo al contexto de esta boda, puede ser útil para administrar eventos de la índole que sea. Esto podría abrirse a un proyecto de negocio muy atractivo, basado en la venta de licencias para montar y administrar un evento. Algo así podría ser atractivo no sólo a particulares, sino a empresas dedicadas al negocio de los eventos sociales.</p>
+
+<h3 id="objetivos">Objetivos</h3>
+
+<p>Crear una plataforma que permita registrar usuarios y gestionar su información con la mayor seguridad que pueda.<br />
+Crear dos roles distintos de usuario:</p>
+<ul>
+  <li>Anfitrión: Usuario que monta y gestiona el evento y sus invitados.</li>
+  <li>Invitado: Usuario que está conectado con uno o más Anfitriones para asistir a los eventos que le propongan.
+Desarrollar herramientas para que estos usuarios puedan hacer tareas como las siguientes:</li>
+</ul>
+
+<ol>
+  <li>Crear eventos (Usuario Anfitrión)
+    <ul>
+      <li>Administrar los datos del evento</li>
+      <li>Crear y actualizar la lista de invitaciones para enviar, ya sea a grupos o particulares</li>
+      <li>Enviar preguntas, avisos o noticias sobre el evento a los invitados</li>
+      <li>Recibir el feedback de los invitados</li>
+      <li>Actualizar personalmente información sobre el evento o los invitados (en caso de que estos elijan no usar la plataforma)</li>
+      <li>Importar y exportar listas de Invitaciones para su posterior uso en la organización del evento</li>
+    </ul>
+  </li>
+  <li>Gestionar la asistencia a un evento (Usuario Invitado)
+    <ul>
+      <li>Aceptar, declinar o posponer la asistencia a un evento.</li>
+      <li>Enviar información relativa a su bienestar (alergias, atención especial, etc.).</li>
+      <li>Gestionar la información que se le enviará a los anfitriones, ya sea propia o de algún miembro de su mismo grupo de Invitación.</li>
+      <li>Mantenerse informado de las noticias relativas a cada evento al que esté invitado.</li>
+      <li>Informar sobre cualquier actualización relativa a su asistencia o a la de miembros de su grupo de invitados a su cargo.
+Administrar y guardar la información mediante el montaje de una Base de Datos bien estructurada.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="justificaciones">Justificaciones</h3>
+
+<h3 id="qué-beneficios-aporta-este-proyecto">¿Qué beneficios aporta este proyecto?</h3>
+
+<p>•	Proporciona un canal exclusivo para la comunicación de un evento
+•	Aporta inmediatez a dicha comunicación
+•	Los anfitriones pueden generar sus listas de invitados y descargarlas con información actualizada a medida que pase el tiempo
+•	Los usuarios registrados podrán reutilizar la información relativa a su bienestar y compartirla en otros eventos
+•	No es obligatorio para los invitados registrarse para poderse dar de alta en un evento
+•	Toda la información puede ser actualizada hasta el momento en que se lleva a cabo el evento o se cancela</p>
+
+<h3 id="cómo-pongo-en-práctica-lo-que-he-aprendido-durante-el-ciclo">¿Cómo pongo en práctica lo que he aprendido durante el ciclo?</h3>
+
+<p>Este proyecto supone trabajar prácticamente todos los conceptos aprendidos durante el curso: programación, bases de datos, sistemas informáticos, desarrollo tanto en entorno cliente como en servidor, diseño de interfaces, lenguaje de marcas, despliegue de aplicaciones web…</p>
+
+<h3 id="obstáculos-y-ruta-de-desarrollo">Obstáculos y ruta de desarrollo</h3>
+
+<p>Un proyecto de esta envergadura es simplemente demasiado grande como para poderse desarrollar al completo en un mes. 
+Tendré que limitar el desarrollo del proyecto a lo estrictamente necesario: satisfacer las necesidades inmediatas de administración de la información en la boda de mi hermano, y que a la vez me permita poner en práctica cada área que he aprendido estos dos años.
+Otro elemento que tengo en cuenta es la situación mundial actual. A día de hoy, el confinamiento por el COVID-19 sigue activo en toda la región de España y en buena parte del mundo. Comprendo que la naturaleza y objetivo de este proyecto esté totalmente confrontada con la situación actual para ponerla en uso, enfocada al evento que teníamos pensado en su momento, pero este escenario no lo tuve previsto a finales del año pasado, que es cuando tomé la decisión de hacer, de este, mi proyecto de síntesis.
+De todas formas, no deja de ser una buena idea para mí. Si no es posible poner a funcionar mi proyecto ahora, puede que en el futuro sí lo sea, y, además, con una mejor preparación para ser una gran aplicación web.</p>
+:ET
